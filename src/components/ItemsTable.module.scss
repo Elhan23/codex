@@ -27,3 +27,28 @@
     text-decoration: underline;
   }
 }
+
+.items-table {
+  padding: 20px;
+
+  .ant-table {
+    overflow-x: auto;
+  }
+
+  @media (max-width: 576px) {
+    .ant-select,
+    .ant-input {
+      width: 100% !important;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    .ant-select,
+    .ant-input {
+      width: 100% !important;
+      margin-bottom: 15px;
+    }
+  }
+}
+
