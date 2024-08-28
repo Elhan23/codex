@@ -1,0 +1,29 @@
+.tableContainer {
+  padding: 20px;
+
+  .searchInput {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .categorySelect {
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .table {
+    margin-top: 20px;
+  }
+
+  .imageColumn {
+    img {
+      width: 50px;
+    }
+  }
+
+  .detailsLink {
+    color: #1890ff;
+    text-decoration: underline;
+  }
+}
