@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Table, Input, Select } from 'antd';
-import { fetchItems } from '../redux/slices/itemsSlice';
-import { useAppDispatch, useAppSelector } from '../redux/hooks/Hooks'
+import { fetchItems } from '../../redux/slices/itemsSlice';
+import { useAppDispatch, useAppSelector } from '../../redux/hooks/Hooks'
 import styles from './ItemsTable.module.scss';
 
 const { Search } = Input;
